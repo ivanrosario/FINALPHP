@@ -3,12 +3,9 @@ class DisplayImages {
 
 
  Public static function featuredImages(){
-		try{
-				$db = new PDO("mysql:host=localhost;dbname=Finalphp;port=3306", "root", "root");
-		} catch(Exception $e){
-				echo "unable to connect oh ";
-				exit;
-		}
+
+		include("Services/Database.php");
+
  
 		try {
 				$results = $db->query("SELECT * FROM Products WHERE Display = 'featured' ");
@@ -24,24 +21,22 @@ class DisplayImages {
 			$productDescription = $product[Description];
 			$productPrice = $product[Price];
 			$productName = $product[Name];
-			$productCategory = $product[Category];
-			$productRating = $product[Rating];
+			$productId = $product[ShoeId];
 
-			echo  "<figure>
-  						<a  href='Product_detail.php?productId=$productId'>
-							<img src='$productImage' alt='Product Image''></a>
-							<figcaption>$productName </br> $productDescription </br> 	$$productPrice  </figcaption>
-						</figure> ";		
+			$homePageImages  = "<div class='featuredProducts'>";
+			$homePageImages .= "<figure>";
+			$homePageImages .= "<a  href='Product_detail.php?productId=$productId'><img src='$productImage' alt='Product Image'></a>";
+			$homePageImages .= 	"<figcaption>	$productName \n $$productPrice ";
+			$homePageImages .= "</figcaption>	</figure> </div>";
+
+			echo"$homePageImages";
+		
 		}
 	}
 
 	Public static function allProducts(){
 
-		try {
-			$db = new PDO("mysql:host=localhost;dbname=Finalphp;port=3306", "root", "root");
-		} catch(Exception $e){
-  			echo "unable to connect oh ";
-		}
+		include("Services/Database.php");
 
 		try {
  			$results = $db->query("SELECT * FROM  Products");
@@ -57,16 +52,17 @@ class DisplayImages {
 			$productDescription = $product[Description];
 			$productPrice = $product[Price];
 			$productName = $product[Name];
-			$productCategory = $product[Category];
 			$productId = $product[ShoeId];
 
-    	echo "<figure>
-							<a  href='Product_detail.php?productId=$productId'>
-							<img src='$productImage' alt='Product Image''></a>
-							<figcaption>$productName 
-							</br> $productDescription
-						 	</br> $$productPrice  </figcaption>
-						</figure> ";
+			$allProductsStock  = "<div class='allProducts'>";
+			$allProductsStock .= "<figure>";
+			$allProductsStock .= "<a  href='Product_detail.php?productId=$productId'><img src='$productImage' alt='Product Image'></a>";
+			$allProductsStock .= "<figcaption>$productName	\n  $$productPrice " ;
+			$allProductsStock .= "</figcaption>	</figure> </div>";
+
+
+			 echo "$allProductsStock";
+  
  		}
 
 	}	

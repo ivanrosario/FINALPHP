@@ -2,7 +2,6 @@
 		<ul class="footer-nav">
       	<li><a  href="homepage.php">Home</a></li>
 				<li><a  href="Products.php">Products</a></li>
-				<li><a  href="Product_detail.php">Product Detail</a></li>
 				<li><a  href="Contact.php">Contact</a></li>
 				<li><a  href="Search.php">Search</a></li>
 		</ul>

@@ -3,15 +3,24 @@
   include("Services/Comments.php");
 ?>
 
-  <div>
-    <?php
-      foreach( $comments  as $comment){
-        $store_comment = $comment[comment];
-        echo " <li class='comments'> '$store_comment' </li>";
-      } 
-    ?> 
+<h2 class="cheader" > Check out what they said </h2>
+<div class="comments-wrapper">
+  <?php
+    include("Services/Comments.php");
 
-  </div>
+    foreach( $comments  as $comment){
+      $storeComment = $comment[comment];
+      $personComment = $comment[fname];
+
+      $displayComment  = "<div class='comments'> <h3> $personComment</h3>";
+      $displayComment .= "<p>$storeComment</p> </div>";
+
+      echo "$displayComment";
+      
+      } 
+  ?> 
+
+</div>
   
 <?php
 include("footer.php");

@@ -1,4 +1,17 @@
+<?php
+session_start();
 
+$_SESSION['cart'];
+
+// if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+//      // The request is using the POST method
+// 		//  $_SESSION['test'] = $_SESSION['test'] + 1;
+// 		$_SESSION["test"] = $_SESSION['test'] +1;
+// }
+
+
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,20 +19,28 @@
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>  
 	<link href="lib/css/stylesheet.css" rel="stylesheet" type="text/css">	
-	
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 <body>
+
+
+	<!-- <form method="POST" action="#" >
+		<input type="text" name="productID" />
+		<input type="submit" value="send" />
+		</form> -->
 <header>
-  <div id="header"></div>
+  <div id="header">
   <nav>
   	<ul class="nav">
-			<li><a  href="homepage.php"><img class="home" src="lib/img/home.png"></a></li>
-			<li><a  href="Products.php"><img src="lib/img/product.png"></a></li>
-			<li><a  href="Contact.php"><img src="lib/img/contact.png"></a></li>
-			<li><a  href="Search.php"><img src="lib/img/search.png"></a></li>
-			<li><a  href="#"><img src="lib/img/cart.png"></a></li>
+			<li><a  href="homepage.php"><img class="home" src="lib/img/home.png" alt="navbar home"></a></li>
+			<li><a  href="Products.php"><img src="lib/img/product.png" alt="navbar products"></a></li>
+			<li><a  href="Contact.php"><img src="lib/img/contact.png" alt="navbar contact"></a></li>
+			<li><a  href="Search.php"><img src="lib/img/search.png" alt="navbar search"></a></li>
+			<li><a  href="#"><img src="lib/img/cart.png" alt="navbar cart"></a></li>
+			<li class="cartCount"><?php echo $_SESSION['cart']; ?></li>
 		</ul>
 	</nav>
+	</div>
 </header>
 <!-- 
 • Each product will have a photo, name, description, and price.

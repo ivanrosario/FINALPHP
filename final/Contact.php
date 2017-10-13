@@ -4,6 +4,7 @@ include("header.php");
 
 ?>
 <div class="contact">
+  <h2 class="contactheader"> Contact Us <h2>
   <div id="form">
     <form  id="submit" method="POST" action="comments.php">
       <div>
@@ -17,21 +18,21 @@ include("header.php");
       <div>
         <label for="email">Email:</label>
       </div>
-        <input type="text" id="email" name="email" value="" placeholder="Email" required>
+        <input type="email" id="email" name="email" value="" placeholder="Email" required>
       <div>
         <label for="phone">Phone Number:</label>
       </div>
-        <input type="text" id="phone" name="phone" value=""  required>
+        <input type="tel" id="phone" name="phone" pattern=“^\d{3}-\d{3}-\d{4}$” value=""  required>
       <div>
         <label>Comments/Questions:</label>
       </div>
-        <textarea rows="5" cols="45" name="comment" value="" ></textarea required>
+        <textarea rows="5" cols="45" name="comment" required></textarea >
       <div>
       <input type="Submit" value="Submit" name="Submit" /> 
       </div>
     </form>
   </div>
-<div>
+</div>
 <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="lib/js/jqueryvalidate.js"></script>
 <script>

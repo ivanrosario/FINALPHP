@@ -5,13 +5,13 @@ include("header.php");
 <div class="slideShow">
   <div class="slide">
     <figure>
-      <img src="lib/img/addidas-nemsis.jpg" alt="Lifestyle">
+      <img src="lib/img/suarez.jpg" alt="Lifestyle">
         <figcaption class="Caption">
           Walk in style.
         </figcaption>
     </figure>
   </div>
-  <div>
+  <div class="slide">
     <figure>
       <img src="lib/img/messi.jpg" alt="messi in action">
         <figcaption class="Caption">
@@ -19,7 +19,7 @@ include("header.php");
         </figcaption>
     </figure>
   </div>
-  <div class="hello">
+  <div class="slide">
     <figure>
       <img src="lib/img/player3.jpg" alt="ronaldo in action">
        <figcaption class="Caption">
@@ -27,7 +27,7 @@ include("header.php");
        </figcaption>
     </figure>
   </div>
-  <div>
+  <div class="slide">
     <figure>
       <img src="lib/img/blackout.jpg" alt="blackout pack from nike">
         <figcaption class="Caption">
@@ -37,6 +37,7 @@ include("header.php");
   </div>
 </div>
 
+<h2 class="featured"> Featured Products </h2>
 <div class="featuredImages">
   <?php
     include("Services/Displayphotos.php");
@@ -57,7 +58,7 @@ include("header.php");
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 1500,
       });
     });
   </script>
