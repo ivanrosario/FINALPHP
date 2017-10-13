@@ -83,11 +83,11 @@ class SearchService {
 			$productRating = $product[Rating];
 			$IdOfProduct = $product[ShoeId];
 
-if($_SERVER['REQUEST_METHOD'] === 'POST') {
+		if($_SERVER['REQUEST_METHOD'] === 'POST') {
      // The request is using the POST method
 		//  $_SESSION['test'] = $_SESSION['test'] + 1; increments by 1 each time the page refresh
 		$_SESSION["cart"] = $_SESSION["cart"] +1;
-}
+		}
 			$productId  = "<div class='idProduct'>";
 			$productId .= "<h1>$productName </h1>";		
 			$productId .= "<figure>";
@@ -96,6 +96,12 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 			$productId .= "</figcaption>
 							</figure> 
     					<form  id='Item' method='POST' action='#'>
+							<select name='size'>
+  							<option value='7'>7</option>
+  							<option value='8'>8</option>
+  							<option value='9'>9</option>
+  							<option value='10'>10</option>
+							</select>
 							<button type='submit' onClick='purchaseProduct()'>Purchase</button>
 							<input type='hidden' name='cart' value=''>
 							</form>

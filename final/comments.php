@@ -17,9 +17,8 @@
 
       echo "$displayComment";
       
-      } 
+    } 
   ?> 
-
 </div>
   
 <?php

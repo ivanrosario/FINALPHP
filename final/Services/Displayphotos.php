@@ -1,8 +1,6 @@
 <?php
 class DisplayImages {    
-
-
- Public static function featuredImages(){
+ public static function featuredImages(){
 
 		include("Services/Database.php");
 
@@ -34,7 +32,7 @@ class DisplayImages {
 		}
 	}
 
-	Public static function allProducts(){
+	public static function allProducts(){
 
 		include("Services/Database.php");
 

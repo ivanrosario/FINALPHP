@@ -24,8 +24,7 @@ include("header.php");
 <div class='productImages'>
   <?php
     include("Services/Search.php");
-
-
+    
     if(isset($_POST['Submit'])){
       $category = $_POST['Category'];
       $search = $_POST['search'];
