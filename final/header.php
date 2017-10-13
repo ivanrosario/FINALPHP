@@ -1,4 +1,6 @@
 <?php
+error_reporting(0); 
+
 session_start();
 
 $_SESSION['cart'];
@@ -32,7 +34,7 @@ $_SESSION['cart'];
   <div id="header">
   <nav>
   	<ul class="nav">
-			<li><a  href="homepage.php"><img class="home" src="lib/img/home.png" alt="navbar home"></a></li>
+			<li><a  href="index.php"><img class="home" src="lib/img/home.png" alt="navbar home"></a></li>
 			<li><a  href="Products.php"><img src="lib/img/product.png" alt="navbar products"></a></li>
 			<li><a  href="Contact.php"><img src="lib/img/contact.png" alt="navbar contact"></a></li>
 			<li><a  href="Search.php"><img src="lib/img/search.png" alt="navbar search"></a></li>

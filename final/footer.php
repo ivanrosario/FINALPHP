@@ -1,6 +1,6 @@
 	<footer>
 		<ul class="footer-nav">
-      	<li><a  href="homepage.php">Home</a></li>
+      	<li><a  href="index.php">Home</a></li>
 				<li><a  href="Products.php">Products</a></li>
 				<li><a  href="Contact.php">Contact</a></li>
 				<li><a  href="Search.php">Search</a></li>
@@ -16,15 +16,6 @@
 	</footer>
 </body>
 </html>
-<!-- 
-		<ul class="footer-nav">
-		  	<li><a  href="homepage.php"><img src="img/home.png"></a></li>
-				<li><a  href="Products.php"><img src="img/product.jpg"></a></li>
-				<li><a  href="Product_detail.php"><img src="img/product_info.png"></a></li>
-				<li><a  href="Contact.php"><img src="img/contact.png"></a></li>
-				<li><a  href="Search.php"><img src="img/search.png"></a></li>
-    </ul> -->
-    
 
     
     
