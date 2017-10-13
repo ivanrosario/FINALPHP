@@ -4,8 +4,7 @@ include("header.php");
 
 ?>
 <div class="contact">
-  <h2 class="contactheader"> Contact Us <h2>
-  <div id="form">
+  <h2 class="contactheader"> Contact Us </h2>
     <form  id="submit" method="POST" action="comments.php">
       <div>
         <label for="firstName">First Name:</label> 
@@ -31,7 +30,6 @@ include("header.php");
       <input type="Submit" value="Submit" name="Submit" /> 
       </div>
     </form>
-  </div>
 </div>
 <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="lib/js/jqueryvalidate.js"></script>

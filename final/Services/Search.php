@@ -106,7 +106,7 @@ class SearchService {
 							<button type='submit' onClick='purchaseProduct()'>Purchase</button>
 							<input type='hidden' name='cart' value=''>
 							</form>
-							<script src='lib/js/cartNotifcation.js'></script>";
+							<script src='lib/js/cartNotification.js'></script>";
 		
 			echo "$productId";
 		}
