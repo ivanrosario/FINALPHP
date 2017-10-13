@@ -445,11 +445,12 @@ figcaption {
 /* ============================ PRODUCTS  =================== */
 /* products is theyre own div  */
 /* images is the whole div  */
+
 .productImages {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto 5%;
-  text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 5%;
+    text-align: center;
 }
 
 .allProducts {

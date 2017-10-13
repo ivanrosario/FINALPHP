@@ -21,8 +21,9 @@ include("header.php");
   <input type="Submit" value="Submit" name="Submit" /> 
 </form>
 </div>
-<?php
-include("Services/Search.php");
+<div class='productImages'>
+  <?php
+    include("Services/Search.php");
 
 
     if(isset($_POST['Submit'])){
@@ -35,8 +36,8 @@ include("Services/Search.php");
 
       echo"$productFilter";
     }
-?>
-
+  ?>
+</div>
 <?php
 include("footer.php");
 ?>
