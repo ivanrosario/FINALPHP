@@ -103,11 +103,9 @@ class SearchService {
   									<option value='9'>9</option>
   									<option value='10'>10</option>
 									</select>
-							<button type='submit' onClick='purchaseProduct()'>Purchase</button>
-							<input type='hidden' name='cart' value=''>
-							</form>
-							<script src='lib/js/cartNotification.js'></script>";
-		
+								<input type='submit''>Purchase</button>
+							</form>";
+						
 			echo "$productId";
 		}
 

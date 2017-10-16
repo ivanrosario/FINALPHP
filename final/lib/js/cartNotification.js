@@ -1,4 +1,6 @@
-function purchaseProduct(){
- alert("Added item(s) to cart");
-    document.getElementById("Item").submit();
-  }
+$(".Purchase").hide();
+
+$("#Item").submit(function(e){
+  e.preventDefault();
+  $(".Purchase").toggle(2000);
+})

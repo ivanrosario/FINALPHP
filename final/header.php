@@ -4,15 +4,6 @@ error_reporting(0);
 session_start();
 
 $_SESSION['cart'];
-
-// if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-//      // The request is using the POST method
-// 		//  $_SESSION['test'] = $_SESSION['test'] + 1;
-// 		$_SESSION["test"] = $_SESSION['test'] +1;
-// }
-
-
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -25,11 +16,6 @@ $_SESSION['cart'];
 </head>
 <body>
 
-
-	<!-- <form method="POST" action="#" >
-		<input type="text" name="productID" />
-		<input type="submit" value="send" />
-		</form> -->
 <header>
   <div id="header">
   <nav>

@@ -11,7 +11,7 @@
 				with the Fair Use Act. All trademarks,trade names, or logos mentioned or used are the property of 
 				their respective owners. It will be removed at the request of copyright owner(s).
 			</p>
-			<p>&copy;2017 Ivan Rosario</p>
+			<p>&copy; 2017 Ivan Rosario</p>
 		</div>
 	</footer>
 </body>
