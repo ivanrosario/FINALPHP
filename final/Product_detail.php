@@ -25,5 +25,4 @@ include("Services/Search.php");
 
 <?php
 include("footer.php");
-
 ?>

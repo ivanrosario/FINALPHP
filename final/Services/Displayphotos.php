@@ -1,6 +1,6 @@
 <?php
 class DisplayImages {    
- public static function featuredImages(){
+ 	public static function featuredImages(){
 
 		include("Services/Database.php");
 
@@ -24,8 +24,8 @@ class DisplayImages {
 			$homePageImages  = "<div class='featuredProducts'>";
 			$homePageImages .= "<figure>";
 			$homePageImages .= "<a  href='Product_detail.php?productId=$productId'><img src='$productImage' alt='Product Image'></a>";
-			$homePageImages .= 	"<figcaption>	$productName \n $$productPrice ";
-			$homePageImages .= "</figcaption>	</figure> </div>";
+			$homePageImages .= 	"<figcaption>	$productName  ";
+			$homePageImages .= "</figcaption>	</figure> $$productPrice </div>";
 
 			echo"$homePageImages";
 		
@@ -55,8 +55,8 @@ class DisplayImages {
 			$allProductsStock  = "<div class='allProducts'>";
 			$allProductsStock .= "<figure>";
 			$allProductsStock .= "<a  href='Product_detail.php?productId=$productId'><img src='$productImage' alt='Product Image'></a>";
-			$allProductsStock .= "<figcaption>$productName	\n  $$productPrice " ;
-			$allProductsStock .= "</figcaption>	</figure> </div>";
+			$allProductsStock .= "<figcaption>$productName  " ;
+			$allProductsStock .= "</figcaption>	</figure>$$productPrice</div>";
 
 
 			 echo "$allProductsStock";

@@ -2,7 +2,6 @@
 
 	include("Services/Database.php");
 
-
   try {
     $query = "INSERT INTO `Contact` (fname, lname, email, phone, comment, contactId) ";
     $query .= "VALUES( :fname, :lname, :email, :phone,  :comment, NULL)";

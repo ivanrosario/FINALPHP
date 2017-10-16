@@ -357,8 +357,10 @@ template {
 *****************************************************************************/
 
 /* ============ NAV BAR // JQUERY SLIDE SHOW// HOMEPAGE  ================== */
+
 figcaption {
   color: #333;
+  font-weight: bold;
 }
 
 .nav li:hover {
@@ -375,7 +377,6 @@ figcaption {
 .nav {
   /* position: fixed; */
   border-bottom: 3px solid black;
-  padding-bottom: 2%;
 }
  
 .nav li ,
@@ -396,9 +397,10 @@ figcaption {
 .browse,
 .cheader,
 .Header {
+  font-family: 'Fjalla One', sans-serif;
   font-size: 50px;
   text-align: center;
-  margin: 5% auto;
+  margin: 3% auto;
   text-shadow: 2px 2px 5px #666;
 }
 
@@ -408,7 +410,6 @@ figcaption {
 }
 
 .slideShow {
-  border-bottom: solid black 3px;
   height: 30%;
   margin: auto;
   width: 100%;
@@ -418,7 +419,7 @@ figcaption {
   display: block;
   height: 80%;
   margin: auto;
-  width: 80%;
+  width: 60%;
 }
 
 .featuredImages {
@@ -426,18 +427,24 @@ figcaption {
   flex-wrap: wrap;
   margin: auto 5%;
   transition: 500ms;
+  color: #666
+
 }
 
 /* products is theyre own div  */
 /* images is the whole div  */
  .featuredProducts:hover {
- background-color: rgba(180, 180, 180, 0.2);
+ background-color: rgba(180, 180, 180, 0.6);
 } 
 
 .featuredProducts {
   text-align: center;
   transition: 500ms;
   width: 33%;
+}
+
+.featured{
+  border-top: black 3px solid;
 }
 
 /******************************************************************************
@@ -452,6 +459,7 @@ figcaption {
     flex-wrap: wrap;
     margin: auto 5%;
     text-align: center;
+    color: #666
 }
 
 .allProducts {

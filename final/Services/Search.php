@@ -53,11 +53,11 @@ class SearchService {
 			$productRating = $product[Rating];
 			$productId = $product[ShoeId];
 
-			$searchResult  =  "<div class='allProducts'>";
+			$searchResult  = "<div class='allProducts'>";
 			$searchResult .= "<figure>";
 			$searchResult .= "<a  href='Product_detail.php?productId=$productId'><img src='$productImage' alt='Product Image''></a>";
-			$searchResult .= 	"<figcaption>$productName </br> $$productPrice ";
-			$searchResult .= "</figcaption>	</figure></div>";
+			$searchResult .= 	"<figcaption>$productName  ";
+			$searchResult .= "</figcaption>	</figure> $$productPrice</div>";
 
 
 			echo "$searchResult";
