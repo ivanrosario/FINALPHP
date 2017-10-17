@@ -358,6 +358,10 @@ template {
 
 /* ============ NAV BAR // JQUERY SLIDE SHOW// HOMEPAGE  ================== */
 
+button, Submit{
+  cursor: pointer;
+}
+
 figcaption {
   color: #333;
   font-weight: bold;
@@ -469,7 +473,7 @@ figcaption {
   transition: 500ms;
 }
 .allProducts:hover {
-  background-color: rgba(180, 180, 180, 0.2);
+  background-color: rgba(180, 180, 180, 0.6);
 }
 .allProducts img {
   height: 160px;
@@ -516,6 +520,10 @@ label {
 
 .comments p {
   color:#333;
+}
+
+.error{
+  color:red;
 }
 
 /*********************************************************
