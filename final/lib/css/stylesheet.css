@@ -361,6 +361,7 @@ template {
 figcaption {
   color: #333;
   font-weight: bold;
+  font-family: 'Crete Round', sans-serif;
 }
 
 .nav li:hover {
@@ -377,6 +378,7 @@ figcaption {
 .nav {
   /* position: fixed; */
   border-bottom: 3px solid black;
+  background-color: #9c9c9c;
 }
  
 .nav li ,
@@ -384,7 +386,7 @@ figcaption {
   color:red;
   display: inline-block;
   font-weight: bold;
-  padding: 5px 45px;
+  padding: 3px 45px;
   text-decoration: none;
 }
 
@@ -444,7 +446,7 @@ figcaption {
 }
 
 .featured{
-  border-top: black 3px solid;
+  padding: 25px;
 }
 
 /******************************************************************************
@@ -538,60 +540,50 @@ label {
 
 /* ============================ PRODUCT DETAIL =================== */
 
+.idProduct h1{
+  color: black;
+}
 .idProduct{
   margin: auto;
   text-align: center;
+  color: #666
 }
 
 .idProduct img {
   height: 50%;
   width: 50%;
 }
+.idProduct figcaption{
+  padding:5px 214px 34px 174px
+}
 .arrow img{
  height: 5%;
  width: 5%;
 
 }
-.Purchase{
-  height: 80%;
-  width: 80%;
+.Purchase img{
+  height: 60%;
+  width: 60%;
   
+}
+.Purchase{
+  margin-left: 500px;
 }
 
 /*********************************************************
  **************************** END OF PRODUCT DETAIL*******                
  *********************************************************/
 
- /* ============================ START FOOTER  =================== */
 
- .footer-nav{
-  /* position: fixed; */
-  border-bottom: 3px solid black;
-  margin: 100px 29px 95px 16px;
- }
- 
-.footer-nav li ,
-.footer-nav a
-{
-  background-color: white;
-  color: black;
-  display: inline-block;
-  padding: 5px 69px;
-  text-decoration: none;
-  transition: font-size, 120ms;
-}
 
-.footer-nav a:hover{
-font-size: 20px;;
-
-}
 .Disclaimer{
+  border-top: 3px solid black;
   text-align: center;
+  padding: 10px 109px 22px 145px;
+  margin-top: 40px
 }
 
-/*******************************************************
- **************************** END OF FOOTER*************                  
- *******************************************************/
+
 
 /* ============================ MEDIA QUERIES =================== */
 
@@ -636,20 +628,6 @@ font-size: 20px;;
   **************************** END OF PRODUCT*************                  
   *********************************************************/
 
-  /* ============================ START FOOTER  =================== */
-  .footer-nav { 
-    margin: auto 0;
-  }
-
-  .footer-nav li ,
-  .footer-nav a {
-    padding: 6%;
-   
-  }
-
-  /*******************************************************
-  **************************** END OF FOOTER*************                  
-  *******************************************************/
 }
 
 
@@ -694,16 +672,6 @@ font-size: 20px;;
   /*********************************************************
   **************************** END OF PRODUCT*************                  
   *********************************************************/
-
-  /* ============================ START FOOTER  =================== */
-  .footer-nav { 
-    margin: auto;
-  }
-
-  .footer-nav li ,
-  .footer-nav a {
-    padding: 9%;
-  }
 
 
 }

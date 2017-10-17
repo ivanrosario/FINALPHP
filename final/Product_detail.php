@@ -3,7 +3,7 @@ include("header.php");
 include("Services/Search.php");
 ?>
 <div class="arrow">
-   <a href="Products.php"><img class="arrow" src="lib/img/backarrow.png"> </a>   
+   <a href="Products.php"><img class="arrow" src="lib/img/backarrow.png" alt="Go back"> </a>   
 </div>
 
 <?php
@@ -13,9 +13,9 @@ include("Services/Search.php");
 
 <div class="Purchase">
   <figure>
-    <img src="lib/img/ronaldo-buy.png">
-    <figcaption> Thank you for the purchase !<figcaption>
-  <figure>
+    <img src="lib/img/ronaldo-buy.png" alt="ronaldo happy for the purchase ">
+    <figcaption> Thank you for the purchase !</figcaption>
+  </figure>
 </div>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
