@@ -358,6 +358,10 @@ template {
 
 /* ============ NAV BAR // JQUERY SLIDE SHOW// HOMEPAGE  ================== */
 
+body{
+  background-color: #eaeaea;
+}
+
 button, Submit{
   cursor: pointer;
 }
@@ -588,7 +592,11 @@ label {
   border-top: 3px solid black;
   text-align: center;
   padding: 10px 109px 22px 145px;
-  margin-top: 40px
+  margin-top: 40px;
+  color: white;
+  background-color: #9c9c9c;
+
+
 }
 
 
