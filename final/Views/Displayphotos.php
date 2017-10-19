@@ -1,10 +1,9 @@
 <?php
-class DisplayImages {    
+class DisplayImages {
  	public static function featuredImages(){
 
 		include("Services/Database.php");
 
- 
 		try {
 				$results = $db->query("SELECT * FROM Products WHERE Display = 'featured' ");
 		} catch (Exception $e){
@@ -28,7 +27,6 @@ class DisplayImages {
 			$homePageImages .= "</figcaption>	</figure> $$productPrice </div>";
 
 			echo"$homePageImages";
-		
 		}
 	}
 
@@ -60,11 +58,10 @@ class DisplayImages {
 
 
 			 echo "$allProductsStock";
-  
  		}
 
-	}	
-} 
+	}
+}
 
 
 ?>

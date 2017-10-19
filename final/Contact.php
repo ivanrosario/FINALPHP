@@ -7,7 +7,7 @@ include("header.php");
   <h2 class="contactheader"> Contact Us </h2>
     <form  id="submit" method="POST" action="comments.php">
       <div>
-        <label for="firstName">First Name:</label> 
+        <label for="firstName">First Name:</label>
       </div>
         <input type="text" id="firstName" name="fname"  value=""  required>
       <div>
@@ -27,7 +27,7 @@ include("header.php");
       </div>
         <textarea rows="5" cols="45" name="comment" required></textarea >
       <div>
-      <input type="Submit" value="Submit" name="Submit" /> 
+      <input type="Submit" value="Submit" name="Submit" />
       </div>
     </form>
 </div>
@@ -39,7 +39,7 @@ include("header.php");
 //     $("#submit").toggle(2000);
 //   }
 // });
-</script>   
+</script>
 
 <?php
 include("footer.php");
