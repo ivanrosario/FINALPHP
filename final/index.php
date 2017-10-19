@@ -41,29 +41,10 @@ include("header.php");
 <h2 class="featured"> Featured Products </h2>
 <div class="featuredImages">
   <?php
-    include("Services/Displayphotos.php");
+    include("Views/Displayphotos.php");
     $featuredpage =  DisplayImages::featuredImages();
   ?>
 </div>
-
-
-
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
-
-  <script type="text/javascript">
-   $("document").ready(function(){
-      $('.slideShow').slick({
-      dots: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 1500,
-      });
-    });
-  </script>
-
 
 <?php
 include("footer.php");

@@ -18,18 +18,17 @@ include("header.php");
     <option value="Turf">Turf</option>
     <option value="Cleat">Cleat</option>
   </select>
-  <input type="Submit" value="Submit" name="Submit" /> 
+  <input class="searchBar" type="Submit" value="Submit" name="Submit" /> 
 </form>
 </div>
 <div class='productImages'>
   <?php
-    include("Services/Search.php");
+    include("Views/Search.php");
     
     if(isset($_POST['Submit'])){
       $category = $_POST['Category'];
       $search = $_POST['search'];
       $range = $_POST['priceRange'];
-
 
       $productFilter = SearchService::getSearchResults($range, $category, $search);
 

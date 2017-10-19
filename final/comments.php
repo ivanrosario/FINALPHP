@@ -17,8 +17,8 @@
     } 
     //abouve goes into services
 
-  $comments = $results->fetchAll(PDO::FETCH_ASSOC);
-  $comments = array_reverse($comments);
+    $comments = $results->fetchAll(PDO::FETCH_ASSOC);
+    $comments = array_reverse($comments);
 
     foreach( $comments  as $comment){
       $storeComment = $comment[comment];
@@ -30,7 +30,7 @@
       echo "$displayComment";
       
     } 
-  ?> 
+  ?>    
 </div>
   
 <?php

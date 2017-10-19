@@ -93,20 +93,11 @@ class SearchService {
 			$productId .= "<figure>";
 			$productId .=	"<img src='$productImage' alt='Product Image'>";
 			$productId .= "<figcaption>$productDescription   ";
-			$productId .= "</figcaption>
-							</figure> 
-									$$productPrice
-    					<form  id='Item' method='POST' action='#'>
-							  <label>Size:</label>
-									<select name='size'>
-  									<option value='7'>7</option>
-  									<option value='8'>8</option>
-  									<option value='9'>9</option>
-  									<option value='10'>10</option>
-									</select>
-								<button type='submit'>Purchase</button>
-							</form>
-							</div>";
+			$productId .= "</figcaption></figure> $$productPrice";
+    	$productId .= "	<form  id='Item' method='POST' action='#'><label>Size:</label>";
+			$productId .=	"<select name='size'><option value='7'>7</option><option value='8'>8</option>
+  		<option value='9'>9</option><option value='10'>10</option></select>";
+			$productId .= "<button type='submit'>Purchase</button></form></div>";
 						
 			echo "$productId";
 		}

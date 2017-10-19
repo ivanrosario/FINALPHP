@@ -9,15 +9,15 @@ include("header.php");
       <div>
         <label for="firstName">First Name:</label> 
       </div>
-        <input type="text" id="firstName" name="fname"  value="" placeholder="First Name" required>
+        <input type="text" id="firstName" name="fname"  value=""  required>
       <div>
         <label for="lastName">Last Name:</label>
       </div>
-        <input type="text" id="lastName" name="lname" value="" placeholder="Last Name" required>
+        <input type="text" id="lastName" name="lname" value=""  required>
       <div>
         <label for="email">Email:</label>
       </div>
-        <input type="email" id="email" name="email" value="" placeholder="Email" required>
+        <input type="email" id="email" name="email" value=""  required>
       <div>
         <label for="phone">Phone Number:</label>
       </div>
