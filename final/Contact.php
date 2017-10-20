@@ -27,7 +27,7 @@ include("header.php");
       </div>
         <textarea rows="5" cols="45" name="comment" required></textarea >
       <div>
-      <input type="Submit" value="Submit" name="Submit" />
+      <input id="putIn" type="Submit" value="Submit" name="Submit" />
       </div>
     </form>
 </div>
