@@ -2,5 +2,5 @@ $(".Purchase").hide();
 
 $("#Item").submit(function(e){
   e.preventDefault();
-  $(".Purchase").toggle(1000);
+  $(".Purchase").toggle(2000);
 })

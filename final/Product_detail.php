@@ -17,6 +17,7 @@ include("Views/Search.php");
     <figcaption> Thank you for the purchase !</figcaption>
   </figure>
 </div>
+<script src='lib/js/cartNotification.js'></script>
 
 <?php
 include("footer.php");

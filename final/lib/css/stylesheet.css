@@ -386,18 +386,30 @@ figcaption {
 }
 
 .nav {
-  border-bottom: 3px solid black;
   background-color: #9c9c9c;
   margin: 0 auto;
 }
- 
+
 .nav li ,
 .nav a {
-  color:red;
   display: inline-block;
   font-weight: bold;
   padding: 3px 45px;
   text-decoration: none;
+}
+
+.nav2 li ,
+.nav2 a {
+  display: inline-block;
+  font-weight: bold;
+  padding: 3px 52px;
+  text-decoration: none;
+  color: white
+}
+
+.nav2 {
+  background-color: #9c9c9c;
+  margin: 0 auto;
 }
 
 .Caption {
@@ -502,8 +514,12 @@ figcaption {
 }
 #submit input{
   padding:16px 92px 6px 102px ;
-  text-align: center;
 }
+
+.label {
+  text-align: left;
+}
+
 
 input,
 label {
@@ -530,7 +546,7 @@ label {
   background-color: rgba(180, 180, 180, 0.6);
   border-bottom: 1px solid #333;
   color: black;
-  margin: 30px;  
+  margin: 30px;
 }
 
 .comments p {
@@ -550,7 +566,7 @@ label {
 .search form {
   text-align: center;
   margin: auto 0;
-  
+
 }
 
 .search{
@@ -564,14 +580,14 @@ label {
   background-color: #000;
 }
 
- 
+
 .searchBar:hover{
   color: #fff;
   background-color: #f44336;
   cursor: pointer;
 
 }
-  
+
 
 /*********************************************************
 **************************** END OF SEARCH*************                  

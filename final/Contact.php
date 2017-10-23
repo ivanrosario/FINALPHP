@@ -7,23 +7,23 @@ include("header.php");
   <h2 class="contactheader"> Contact Us </h2>
     <form  id="submit" method="POST" action="comments.php">
       <div>
-        <label for="firstName">First Name:</label>
+        <label class="label" for="firstName">First Name:</label>
       </div>
         <input type="text" id="firstName" name="fname"  value=""  required>
       <div>
-        <label for="lastName">Last Name:</label>
+        <label  class="label" for="lastName">Last Name:</label>
       </div>
         <input type="text" id="lastName" name="lname" value=""  required>
       <div>
-        <label for="email">Email:</label>
+        <label  class="label" for="email">Email:</label>
       </div>
         <input type="email" id="email" name="email" value=""  required>
       <div>
-        <label for="phone">Phone Number:</label>
+        <label  class="label" for="phone">Phone Number:</label>
       </div>
         <input type="tel" id="phone" name="phone" pattern=“^\d{3}-\d{3}-\d{4}$” value=""  required>
       <div>
-        <label>Comments/Questions:</label>
+        <label  class="label">Comments/Questions:</label>
       </div>
         <textarea rows="5" cols="45" name="comment" required></textarea >
       <div>

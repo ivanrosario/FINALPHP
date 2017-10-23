@@ -1,6 +1,5 @@
 <?php
 include("header.php");
-
 ?>
 <h1 class="Header"> Ivan's Shoe Show</h1>
 <div class="slideShow">

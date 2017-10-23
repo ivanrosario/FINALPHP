@@ -32,7 +32,7 @@ class SearchService {
 			}else{
 				$query = $db->prepare("SELECT * FROM  `Products` WHERE  Category = '{$category}' AND (Color Like ? OR  Name LIKE ? OR Description Like ?) $order ");
 			}
-			//parensis same as math runs it all together 
+			//parensis same as math runs it all together
 
       // $query = $db->prepare('SELECT * FROM Products WHERE  Name LIKE ? OR Description LIKE ? OR  Color Like ? ');
       $query->execute(array( "%{$search}%", "%{$search}%", "%{$search}%"));
@@ -89,7 +89,7 @@ class SearchService {
 		$_SESSION["cart"] = $_SESSION["cart"] +1;
 		}
 			$productId  = "<div class='idProduct'>";
-			$productId .= "<h1>$productName </h1>";		
+			$productId .= "<h1>$productName </h1>";
 			$productId .= "<figure>";
 			$productId .=	"<img src='$productImage' alt='Product Image'>";
 			$productId .= "<figcaption>$productDescription   ";
@@ -98,7 +98,7 @@ class SearchService {
 			$productId .=	"<select name='size'><option value='7'>7</option><option value='8'>8</option>
   		<option value='9'>9</option><option value='10'>10</option></select>";
 			$productId .= "<button type='submit'>Purchase</button></form></div>";
-						
+
 			echo "$productId";
 		}
 
