@@ -621,7 +621,7 @@ label {
 
 }
 .idProduct form{
-  padding: 40px 10px 72px 0pxx;
+  padding: 40px 10px 72px 0px;
 }
 .Purchase img{
   height: 60%;
@@ -630,6 +630,29 @@ label {
 }
 .Purchase{
   margin-left: 500px;
+}
+
+.Purchase a {
+  text-decoration: none;
+
+}
+.ronaldoHeader{
+  color:white;
+  text-align: center;
+}
+.buttonBack{
+  border: 3px solid white;
+  background-color: #000;
+  color: #fff;
+  height: 30%;
+  width: 87%;
+  margin: 1% 29% 7% -13%;
+}
+
+.buttonBack:hover{
+   color: #fff;
+  background-color: #f44336;
+  cursor: pointer;
 }
 
 /*********************************************************
@@ -647,6 +670,7 @@ label {
   background-color: #9c9c9c;
 
 }
+
 
 .wrapper{
   width:100%;

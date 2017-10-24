@@ -1,9 +1,9 @@
 <?php
 error_reporting(0);
 
-session_start();
+// session_start();
 
-$_SESSION['cart'];
+// $_SESSION['cart'];
 ?>
 <!DOCTYPE html>
 <html>

@@ -2,5 +2,8 @@ $(".Purchase").hide();
 
 $("#Item").submit(function(e){
   e.preventDefault();
-  $(".Purchase").toggle(2000);
-})
+  $(".idProduct").hide(2000, function(){
+    $(".Purchase").show(2000, function(){
+    })
+  })
+});

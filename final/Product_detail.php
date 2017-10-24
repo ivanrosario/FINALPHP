@@ -12,6 +12,9 @@ include("Views/Search.php");
 ?>
 
 <div class="Purchase">
+  <a  href="Products.php"><div class="buttonBack">
+   <h1 class="ronaldoHeader">Continue Shopping </h1>
+  </div></a>
   <figure>
     <img src="lib/img/ronaldo-buy.png" alt="ronaldo happy for the purchase ">
     <figcaption> Thank you for the purchase !</figcaption>

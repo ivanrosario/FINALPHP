@@ -67,7 +67,7 @@ class SearchService {
 
 
 	public static function getProductById($idOfProduct){
-	
+
 		include("Services/Database.php");
 
  		$results = $db->query("SELECT * FROM  `Products` WHERE  `ShoeId` = '{$idOfProduct}' ");
