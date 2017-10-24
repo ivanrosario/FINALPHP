@@ -362,8 +362,6 @@ body{
   background-color: #eaeaea;
 }
 
-
-
 button, Submit{
   cursor: pointer;
 }
@@ -385,16 +383,18 @@ figcaption {
   width: 76px;
 }
 
-.nav {
+.nav{
   background-color: #9c9c9c;
   margin: 0 auto;
+  padding: auto 50%;
 }
+
 
 .nav li ,
 .nav a {
   display: inline-block;
   font-weight: bold;
-  padding: 3px 45px;
+  padding: 3px 52px;
   text-decoration: none;
 }
 
@@ -402,7 +402,7 @@ figcaption {
 .nav2 a {
   display: inline-block;
   font-weight: bold;
-  padding: 3px 52px;
+  padding: 7px 91px 3px 29px;
   text-decoration: none;
   color: white
 }
@@ -410,6 +410,11 @@ figcaption {
 .nav2 {
   background-color: #9c9c9c;
   margin: 0 auto;
+}
+
+.nav, .nav2{
+  display:  flex;
+  justify-content: center;
 }
 
 .Caption {
@@ -727,7 +732,7 @@ label {
 
 
 
-  
+
  @media screen and (max-width: 1200px) { */
     .nav img {
     height: 60px;
