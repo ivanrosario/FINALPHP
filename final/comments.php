@@ -14,7 +14,7 @@
     } catch (Exception $e){
       echo "Bad query";
       exit;
-    } 
+    }
     //abouve goes into services
 
     $comments = $results->fetchAll(PDO::FETCH_ASSOC);
@@ -28,11 +28,11 @@
       $displayComment .= "<p>$storeComment</p> </div>";
 
       echo "$displayComment";
-      
-    } 
-  ?>    
+
+    }
+  ?>
 </div>
-  
+
 <?php
 include("footer.php");
 

@@ -3,7 +3,7 @@ include("header.php");
 ?>
 <div class="wrapper">
   <div class="search">
-  <h1>Search</h1>
+  <h1 class="Sheader">Search</h1>
   <form  id="submit" method="POST" action="#">
     <input type="text"  name="search" value="" >
     <select name="priceRange">

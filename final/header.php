@@ -12,7 +12,6 @@ $_SESSION['cart'];
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link href="lib/css/stylesheet.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>

@@ -31,7 +31,6 @@ include("header.php");
       </div>
     </form>
 </div>
-<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="lib/js/jqueryvalidate.js"></script>
 <script>
  $("#submit").validate();

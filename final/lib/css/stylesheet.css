@@ -420,7 +420,8 @@ figcaption {
 .contactheader,
 .browse,
 .cheader,
-.Header {
+.Header,
+.Sheader{
   font-family: 'Fjalla One', sans-serif;
   font-size: 50px;
   text-align: center;
